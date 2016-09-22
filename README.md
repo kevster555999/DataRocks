@@ -22,5 +22,6 @@ RE: Project Proposal
   We hope to work on this project for the rest of the year and be able to commit to create a classifier. As such, at the end of the time, we will deliver a report detailing our results, problems and solutions. We sincerely believe that this venture is worth the time and effort put in, and that results will be positive. 
   
   Sincerely,
+  
   DataRocks Divison
 
