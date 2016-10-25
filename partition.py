@@ -21,11 +21,16 @@ for f in [f for f in os.listdir(FILEDIR) if not (f.startswith('.'))]:
         training_data.append(pix_array)
     else:
         test_data.append(pix_array)
+x=["File","Value"]
+for i in range(1,401):
+    x.append(str(i))
 with open('training_data.csv','w') as f:
     wr = csv.writer(f, quoting=csv.QUOTE_ALL)
+    wr.writerow(x)
     for i in training_data:
         wr.writerow(i)
 with open('test_data.csv','w') as f:
     wr = csv.writer(f, quoting=csv.QUOTE_ALL)
+    wr.writerow(x)
     for i in test_data:
         wr.writerow(i)
